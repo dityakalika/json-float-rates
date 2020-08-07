@@ -23,5 +23,6 @@ for data in m.values():
 
 print(currency_list)
 
+# export ke csv
 df = pd.DataFrame (currency_list)
 df.to_csv ("./ IndonesiaCurrency.csv", index = False, header = False)

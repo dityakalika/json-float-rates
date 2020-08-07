@@ -25,4 +25,4 @@ print(currency_list)
 
 # export ke csv
 df = pd.DataFrame (currency_list)
-df.to_csv ("./ IndonesiaCurrency.csv", index = False, header = False)
+df.to_csv ("./ IndonesiaCurrency.csv", index = False)
